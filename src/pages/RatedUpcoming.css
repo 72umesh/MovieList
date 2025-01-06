@@ -1,0 +1,6 @@
+.toprated h2,
+.upcoming h2 {
+  text-align: center;
+  margin: 1rem 0;
+  letter-spacing: 0.04em;
+}

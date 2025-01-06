@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+button:hover {
+  color: var(--color-olivegreen);
+  transform: scale(1.05);
+}
+.previouspage,
+.nextpage {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 0.1em 1.2em;
+
+  background-color: var(--color-lightolivegreen);
+  color: #fff;
+
+  margin: 0 2rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}

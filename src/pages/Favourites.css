@@ -1,0 +1,26 @@
+.favourites {
+  width: 100%;
+  padding: 2rem;
+}
+.favourites h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.favourites-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 600px;
+  letter-spacing: 0.03em;
+
+  background-color: rgba(255, 255, 255, 0.05);
+}
+@media (max-width: 600px) {
+  .favourites-empty h2 {
+    text-align: center;
+  }
+  .favourites-empty {
+    text-align: justify;
+  }
+}
