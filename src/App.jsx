@@ -12,14 +12,12 @@ function App() {
     <MovieProvider>
       <Navbar />
       <main className="main-content">
-        <HashRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/favourites" element={<Favourites />} />
-            <Route path="/toprated" element={<TopRated />} />
-            <Route path="/upcoming" element={<Upcoming />} />
-          </Routes>
-        </HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/favourites" element={<Favourites />} />
+          <Route path="/toprated" element={<TopRated />} />
+          <Route path="/upcoming" element={<Upcoming />} />
+        </Routes>
       </main>
     </MovieProvider>
   );
